@@ -199,7 +199,7 @@
 			},
 			{
 				"id_encuestaP": 81,
-				"html": "Ålders- och diameterspridning Bedöm spridning i ålder eller diameter. Variationen kan vara kontinuerlig, från riktigt klena eller unga träd till äldre och riktigt grova. Variationen kan också utgöras av förekomst av avvikande äldre eller grövre träd.",
+				"html": "<p>Ålders- och diameterspridning Bedöm spridning i ålder eller diameter. Variationen kan vara kontinuerlig, från riktigt klena eller unga träd till äldre och riktigt grova. Variationen kan också utgöras av förekomst av avvikande äldre eller grövre träd.</p>",
 				"img":null
 			}, 
 			{
@@ -209,7 +209,7 @@
 			}, 
 			{
 				"id_encuestaP": 83,
-				"html": "Död ved, till exempel stubbar, lågor eller torrtäd, med spår av kol eller brandljud.",
+				"html": "<p>Död ved, till exempel stubbar, lågor eller torrtäd, med spår av kol eller brandljud.</p>",
 				"img":"<img src=\.img/\"Brandsubbe.jpg\" />"
 			}, 
 			{
@@ -219,13 +219,13 @@
 			}, 
 			{
 				"id_encuestaP": 85,
-				"html": "Vänligen notera alla hittade arter.",
+				"html": "<p>Vänligen notera alla hittade arter.</p>",
 				"img":null
 			},
 			{
 				"id_encuestaP": 86,
 				"html": "Träd med utbildade fruktkroppar av vedsvampar, tickor, eller träd som brutits av på grund av rötangrepp. Mängden avser antalet angripna stammar/lågor/stubbar per hektar.",
-				"img":null
+				"img":"<img src=\.img/\"Vedsvamp och rötbrutet.jpg\" />"
 			}, 
 			{
 				"id_encuestaP": 87,
@@ -254,17 +254,27 @@
 			}, 
 			{
 				"id_encuestaP": 92,
-				"html": "Tunna humuslager, vanligen tunnare än några cm, och blottad mineraljord/sand är utmärkande för värdefulla sandtallskogar, och gynnar både marksvampar och vissa insekter.",
+				"html": "Värdefulla kalktallskogar har relativt tunna humuslager eller blottad mineraljord till följd av exempelvis djurtramp. Detta gynnar både marksvampar och vissa insekter.",
+				"img":null
+			}, 
+			{
+				"id_encuestaP": 93,
+				"html": "Kalkindikerande växter är bl.a. blåsippa, orkidéer, kranshakmossa, trolldruva, tibast och vispstarr. Svagare indikatorarter inkluderar bl.a. ormbär, hässlebrodd, brunört och violer.",
 				"img":null
 			}, 
 			{
 				"id_encuestaP": 94,
+				"html": "Tunna humuslager, vanligen tunnare än några cm, och blottad mineraljord/sand är utmärkande för värdefulla sandtallskogar, och gynnar både marksvampar och vissa insekter.",
+				"img":"<img src=\.img/\"Markvegitation_Sand.jpg\" />"
+			},
+			{
+				"id_encuestaP": 95,
 				"html": "Sandtallskogar har ofta tunna humuslager och en markvegetation som till stor del består av lavar. Riklig förekomst av marktäckande lavar och frånvaro av bärris och ljung anses gynna marksvampar.",
 				"img":null
-			}, 
+			}, 			
 			{
 				"id_encuestaP": 96,
-				"html": "Områden där grundvatten trängt fram till ytan har ofta en avvikande och frodig vegetation i form av mossmattor och ormbunkar. Förekommer ofta i sluttningar (översilning) eller nedanför dessa (källmyrar).",
+				"html": "<p>Områden där grundvatten trängt fram till ytan har ofta en avvikande och frodig vegetation i form av mossmattor och ormbunkar. Förekommer ofta i sluttningar (översilning) eller nedanför dessa (källmyrar).</p>",
 				"img":null
 			}, 
 			{
@@ -281,7 +291,9 @@
 				"id_encuestaP": 99,
 				"html": "<p>Småöar: Mindre öar eller bankar som delar vattendraget i två eller flera fåror. Under merparten av året ligger dessa ovan vattenytan men kan under perioder av högvatten vara täckta.</p>
 				<p>Sandbranter: Karaktäriseras av en högre eller lägre sluttning med blottad mineraljord som leder ner till vattendraget. Jordarten består av s.k. friktionsjord, d.v.s. ett lågt lerinnehåll vilket gör att det lätt uppstår små ras i branten vid störning.</p>
-				<p>Längre partier med grusbotten: En grusbotten är generellt fri från slam och dy, vilket gör att botten karaktäriseras av grövre mineralpartiklar, vanligtvis grus men det kan också vara sand i lugnare partier. För att botten ska klassas i naturvärdesbedömningen krävs att ett längre parti, mer än 5 meter har grusbotten.</p>",
+				<p>Längre partier med grusbotten: En grusbotten är generellt fri från slam och dy, vilket gör att botten karaktäriseras av grövre mineralpartiklar, vanligtvis grus men det kan också vara sand i lugnare partier. För att botten ska klassas i naturvärdesbedömningen krävs att ett längre parti, mer än 5 meter har grusbotten.</p>
+				<p>Merparten: En eller flera av dessa biotoper finns spridda längs hela vattendraget i objektet med endast någon enstaka eller ett fåtal luckor.</p>
+				<p>Förekommer: En eller flera av dessa biotoper finns längs vattendraget, dock inte längs merparten.</p>",
 				"img":"<img src=\.img/\"Vatten grusbotten.jpg\" />"
 			},
 			{
