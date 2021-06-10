@@ -21,7 +21,7 @@
 	},
 	"gradeInformation":	{
 		"title": "Betyg",
-		"html":"<p>Naturvärdesbedömningen kan resultera i följande betyg: </br> <bold>Höga naturvärden</bold>: Området bedöms ha höga naturvärden motsvarande objekt med naturvärde eller nyckelbiotop. Detta är troligtvis en lämplig avsättning för naturvård och ska skogsbruksåtgärder genomföras bör skogsstyrelsen konsulteras. </br> <bold>Gränsfall</bold>: Området verkar ha vissa naturvärden men inte tillräckligt för att entydigt klassa det som höga naturvärden. Ska skogsbruksåtgärder genomföras kan det vara bra att kontakta skogsstyrelsen för konsultation. </br> <bold>Produktionsskog</bold>: Området tycks inte ha några högre naturvärden. Här borde skogsbruksåtgärder kunna genomföras med vanlig generell hänsyn.</p>",
+		"html":"<p>Naturvärdesbedömningen kan resultera i följande betyg: <br> <bold>Höga naturvärden</bold>: Området bedöms ha höga naturvärden motsvarande objekt med naturvärde eller nyckelbiotop. Detta är troligtvis en lämplig avsättning för naturvård och ska skogsbruksåtgärder genomföras bör skogsstyrelsen konsulteras. <br> <bold>Gränsfall</bold>: Området verkar ha vissa naturvärden men inte tillräckligt för att entydigt klassa det som höga naturvärden. Ska skogsbruksåtgärder genomföras kan det vara bra att kontakta skogsstyrelsen för konsultation. <br> <bold>Produktionsskog</bold>: Området tycks inte ha några högre naturvärden. Här borde skogsbruksåtgärder kunna genomföras med vanlig generell hänsyn.</p>",
 		"img":null,
 		"questions":null
 	},
@@ -36,7 +36,7 @@
 					{	
 						"title": "Vanlig tallskog",
 						"html": "<p>Trädskiktet domineras helt eller huvudsakligen av tall, ofta på svagare marker.</p>",
-						"img": "<img src=\.img/\"vanlig tallskog.jpg\" />"
+						"img": "<img src=\".img/vanlig tallskog.jpg\" />"
 					},
 					{
 						"title": "Kalktallskog",
@@ -56,12 +56,12 @@
 							<li>Humuslagret är oftast tunt och marken är helt eller delvis täckt av lavar</li>
 							<li>Blottade och solexponerade sandytor förekommer ofta</li>
 						</ul>",
-						"img":"<img src=\.img/\"sandtallskog.jpg\" />"
+						"img":"<img src=\".img/sandtallskog.jpg\" />"
 					},
 					{
 						"title": "Vanlig granskog",
 						"html": "<p>Trädskiktet domineras helt eller huvudsakligen av gran, ofta på mer näringrika marker.</p>",
-						"img":"<img src=\.img/\"vanlig granskog.jpg\" />"
+						"img":"<img src=\".img/vanlig granskog.jpg\" />"
 					},
 					{
 						"title": "Kalkgranskog",
@@ -76,7 +76,7 @@
 					{
 						"title": "Vanlig lövskog",
 						"html": "<p>Skog där trädskiktets sammansättning helt eller huvudsakligen(> 70 %) består av lövträdslag</p>",
-						"img":"<img src=\.img/\"vanlig lövskog.jpg\" />"
+						"img":"<img src=\".img/vanlig lövskog.jpg\" />"
 					},
 					{
 						"title": "Blandskog",
@@ -91,7 +91,7 @@
 		"title": "Speciella kvalitéer",
 		"html":"<p>En bedömning görs för ifall objektet håller några speciella kvalitéer, biotoper eller vatten. Till speciella kvalitéer räknas död ved, naturvärdesträd, ålders- eller stamdiameterspridning. Dessa värden kan vara spridda i beståndet eller i hittas i flera grupper.<\/p>
 		<p>Finns inget av detta, samtidigt som skogstypen inte tyder på några högre värden går det oftast att anta att skogen är en produktionsskog. Finns någon av dessa kvalitéer spritt eller i grupper?<\/p>",
-		"img":"<img src=\.img/\"Vatten 2.jpg\" />",
+		"img":"<img src=\".img/Vatten 2.jpg\" />",
 		"questions": [
 			{
 				"id_encuestaP": 78,
@@ -99,7 +99,7 @@
 					{
 						"title": "Död ved",
 						"html": "<P>Till död ved räknas stående och liggande död ved över 15 cm i diameter och med en höjd, eller längd över 1,3 m. En bedömning ska göras om det finns inslag av död ved spritt i beståndet eller som ansamlingar i flera grupper.</p>",
-						"img":"<img src=\.img/\"Låga 2.jpg\" />"
+						"img":"<img src=\".img/Låga 2.jpg\" />"
 					},
 					{
 						"title": "Naturvärdesträd",
@@ -133,7 +133,7 @@
 								</ul> 
 							</li>
 						</ul>", 
-						"img":"<img src=\.img/\"Naturvärdesträd.jpg\" />"
+						"img":"<img src=\".img/Naturvärdesträd.jpg\" />"
 					},
 					{
 						"title": "Ålders- och diameterspridning",
@@ -161,7 +161,7 @@
 					{
 						"title": "Vatten",
 						"html": "<p>Vatten i form av vattendrag, sjöar eller mindre öppna vattenspeglar. Dessa värden ska ligga i eller i direkt anslutning till beståndet och bedömas vara vattenförande året runt. Till vattendrag räknas även större diken.</p>",
-						"img":"<img src=\.img/\"Vatten 3.jpg\" />"
+						"img":"<img src=\".img/Vatten 3.jpg\" />"
 					}
 				]
 			}
@@ -210,7 +210,7 @@
 			{
 				"id_encuestaP": 83,
 				"html": "<p>Död ved, till exempel stubbar, lågor eller torrtäd, med spår av kol eller brandljud.</p>",
-				"img":"<img src=\.img/\"Brandsubbe.jpg\" />"
+				"img":"<img src=\".img/Brandsubbe.jpg\" />"
 			}, 
 			{
 				"id_encuestaP": 84,
@@ -225,7 +225,7 @@
 			{
 				"id_encuestaP": 86,
 				"html": "Träd med utbildade fruktkroppar av vedsvampar, tickor, eller träd som brutits av på grund av rötangrepp. Mängden avser antalet angripna stammar/lågor/stubbar per hektar.",
-				"img":"<img src=\.img/\"Vedsvamp och rötbrutet.jpg\" />"
+				"img":"<img src=\".img/Vedsvamp och rötbrutet.jpg\" />"
 			}, 
 			{
 				"id_encuestaP": 87,
@@ -265,7 +265,7 @@
 			{
 				"id_encuestaP": 94,
 				"html": "Tunna humuslager, vanligen tunnare än några cm, och blottad mineraljord/sand är utmärkande för värdefulla sandtallskogar, och gynnar både marksvampar och vissa insekter.",
-				"img":"<img src=\.img/\"Markvegitation_Sand.jpg\" />"
+				"img":"<img src=\".img/Markvegitation_Sand.jpg\" />"
 			},
 			{
 				"id_encuestaP": 95,
@@ -294,7 +294,7 @@
 				<p>Längre partier med grusbotten: En grusbotten är generellt fri från slam och dy, vilket gör att botten karaktäriseras av grövre mineralpartiklar, vanligtvis grus men det kan också vara sand i lugnare partier. För att botten ska klassas i naturvärdesbedömningen krävs att ett längre parti, mer än 5 meter har grusbotten.</p>
 				<p>Merparten: En eller flera av dessa biotoper finns spridda längs hela vattendraget i objektet med endast någon enstaka eller ett fåtal luckor.</p>
 				<p>Förekommer: En eller flera av dessa biotoper finns längs vattendraget, dock inte längs merparten.</p>",
-				"img":"<img src=\.img/\"Vatten grusbotten.jpg\" />"
+				"img":"<img src=\".img/Vatten grusbotten.jpg\" />"
 			},
 			{
 				"id_encuestaP": 100,
@@ -351,7 +351,7 @@
 								</ul> 
 							</li>
 						</ul>", 
-				"img":"<img src=\.img/\"Naturvärdesträd.jpg\" />"		
+				"img":"<img src=\".img/Naturvärdesträd.jpg\" />"		
 			}
 		]
 	}
