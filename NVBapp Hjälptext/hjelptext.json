@@ -1,120 +1,346 @@
- se: {
-        splitPolygonText: 'Rita ut ytan som du vill splitta från polygonen',
-        polygonText: "Vänligen välj ett namn till din polygon",
-        chooseOrCreatePolygonText: 'Välj en polygon eller skapa en ny genom att trycka på kartan för att sätta ut punkter',
-        deleteSample: 'Radera provyta',
-        yesNoHeaderText: 'Finns någon av dessa kvalitéer spritt eller i grupper?',
-        sampleSurfacesInformation: "I en provyta med 25 m radie räknas antalet naturvärdesträd samt antalet liggande och stående död ved. Ett medelvärde för alla provytor ligger sedan till grund för slutgiltiga betyget.",
-        natureAssessmentInformation: "Naturvärdesbedömningen består huvudsakligen av tre moment: \n\u2022 Starta naturvärdesbedömning med inledande frågor för att grovt bedöma naturvärden och behov av fortsatt bedömning \n\u2022 Provytor för kvantitativ datainsamling \n\u2022 Skattningar av strukturer för hela objektet \n\nFör att utföra naturvärdesbedömningen finns några viktiga punkter: \n\u2022 Få en bra bild av HELA objektet – Håll koll på yttergränser, genomkorsa effektivt \n\u2022 Få en bild av vilka processer som ligger bakom objektets struktur och naturvärden \nStäll frågan: Vad har hänt här? \n\u2022 Placera en eller flera provytor representativt för bedömningsområdet (1-6 provytor med 25 m radie) – Storleken på och variationen i objektet avgör antalet \nTips! Provytorna kan också vara en hjälp vid bedömning av andra variabler. Multiplicerat med 5 får man antal per ha \n\u2022 Skatta strukturer för hela objektet \n\u2022 Utifrån insamlad information får man ett sammanvägt betyg för områdets naturvärde. \n\nNaturvärdesbedömning utförs för att bedöma ett objekts naturvärde i samband med skogliga åtgärder eller för att bedöma kvalitet på avsättningar. Att avgöra naturvärden utifrån artinventeringar skulle vara mycket tidskrävande. Därför bygger bedömningen istället på förekomst av substrat och strukturer med känd betydelse för biologisk mångfald. Det sammanvägda betyget ger en ungefärlig vägledning om objektets naturvärden och utfallet påverkas av inventerarens förkunskaper och nedlagd tid.",
-        gradeInformation: "Naturvärdesbedömningen kan resultera i följande betyg: Höga naturvärden: Området bedöms ha höga naturvärden motsvarande objekt med naturvärde eller nyckelbiotop. Detta är troligtvis en lämplig avsättning för naturvård och ska skogsbruksåtgärder genomföras bör skogsstyrelsen konsulteras. Gränsfall: Området verkar ha vissa naturvärden men inte tillräckligt för att entydigt klassa det som höga naturvärden. Ska skogsbruksåtgärder genomföras kan det vara bra att kontakta skogsstyrelsen för konsultation. Trivial produktionsskog: Området tycks inte ha några högre naturvärden. Här borde skogsbruksåtgärder kunna genomföras med vanlig generell hänsyn.",
-        staendedodved: "Stående döda träd",
-        staendedodvedText: "Stående döda träd eller högstubbar högre än 1,3 m och grövre än 15 cm i brösthöjd",
-        liggandedodved: "Liggande död ved",
-        liggandedodvedText: "Liggande död ved längre än 1,3 m och grövre än 15 cm",
-        naturvardestrad: "Naturvärdesträd",
-        naturvardestradText: "(Som naturvärdesträd räknas) \n\nOvanliga trädslag: \n\u2022 Trädformig (> 10 cm dbh) rönn, sälg, hägg, lönn sockelbildande al, oxel, hassel, fågelbär, idegran \n\nSärskilt gamla träd – \nKännetecken för ålder: \n\u2022 Grov skorpbark / pansarbark / krokodilbark \n\u2022 Knotiga grenar med brant nedåtriktad grenvinkel \n\u2022 Påtagligt grovgrenig eller spärrgrenig \n\u2022 Vid och / eller tydligt tillplattad krona \n\u2022 Påtaglig senvuxenhet \n\nSärskilt grova träd - \nTräd med grövre brösthöjdsdiameter än följande: \n\u2022 Tall: 50 cm \n\u2022 Gran: 60 cm \n\u2022 Triviallöv: 40 cm \n\u2022 Ädellöv: 50 cm söder om vägen E18. 10 cm norr om denna \n\nHar särskilda karaktärer såsom: \n\u2022 Öppna brandljud \n\u2022 Hålträd / bohål \n\u2022 Risbon \n\u2022 Träd med tydliga kulturspår – hamling mm \n\u2022 Träd med flera väl synliga tickor",
-        forestType: [
-            [
-                {
-                    title: "Vanlig tallskog",
-                    text: "Trädskiktet domineras helt eller huvudsakligen av tall, ofta på svagare marker.",
-                },
-                {
-                    title: "Kalktallskog",
-                    text: "Talldominerat trädskikt med följande kännetecken:  \n\n\u2022 Artrik flora av kärlväxter och marksvampar, speciellt i sluttningar med rörligt markvatten eller i låga terrängområden med fuktstråk eller källflöden \n\u2022 Förekomst av kalkindikerande arter som blåsippor, orkidéer, kranshakmossa, trolldruva, tibast, vispstarr och vårärt(Svagare indikatorarter inkluderar bland annat ormbär, hässlebrodd, brunört och violer) \n\u2022 Naturvärdena är ofta särskilt höga vid störningspåverkan, t.ex.skogsbete, som förhindrat tidigare spontana igenväxningsförlopp",
-                },
-                {
-                    title: "Sandtallskog",
-                    text: "Talldominerat trädskikt med följande kännetecken: \n\n\u2022 Växer på sandiga eller grusiga sedimentmarker(förekommer ofta på rullstensåsar, dyner och deltan) \n\u2022 Humuslagret är oftast tunt och marken är helt eller delvis täckt av lavar \n\u2022 Blottade och solexponerade sandytor förekommer ofta"
-                }
-            ],
-            [
-                {
-                    title: "Vanlig granskog",
-                    text: "Trädskiktet domineras helt eller huvudsakligen av gran, ofta på mer näringrika marker.",
-                },
-                {
-                    title: "Kalkgranskog",
-                    text: "Grandominerat trädskikt tillsammans med följande kännetecken: \n\n\u2022 Artrik flora av kärlväxter och marksvampar.Speciellt i sluttningar med rörligt markvatten eller i låga terrängområden med fuktstråk eller källflöden \n\u2022 Förekomst av kalkindikerande arter som blåsippor, orkidéer, kranshakmossa, trolldruva, tibast, vispstarr och vårärt. (Svagare indikatorarter inkluderar bland annat ormbär, hässlebrodd, brunört och violer) \n\u2022 Naturvärdena är ofta särskilt höga vid störningspåverkan, t.ex.skogsbete, som förhindrat tidigare pontana igenväxningsförlopp"
-                }
-            ],
-            [
-                {
-                    title: "Vanlig lövskog",
-                    text: "Skog där trädskiktets sammansättning helt eller huvudsakligen(> 70 %) består av lövträdslag"
-                }
-            ]
-
-        ],
-        qualities: [
-            {
-                title: "Död ved",
-                text: "Till död ved räknas stående och liggande död ved över 15 cm i diameter och med en höjd, eller längd över 1,3 m. En bedömning ska göras om det finns inslag av död ved spritt i beståndet eller som ansamlingar i flera grupper.",
-            },
-            {
-                title: "Naturvärdesträd",
-                text: "Som naturvärdesträd räknas: \nOvanliga trädslag: \n\u2022 Trädformig(> 10 cm dbh) rönn, sälg, hägg, lönn sockelbildande al, oxel,hassel, fågelbär, idegran \n\nSärskilt gamla träd – Kännetecken för ålder: \n\u2022 Grov skorpbark / pansarbark / krokodilbark \n\u2022 Knotiga grenar med brant nedåtriktad grenvinkel \n\u2022 Påtagligt grovgrenig eller spärrgrenig \n\u2022 Vid och / eller tydligt tillplattad krona \n\u2022 Påtaglig senvuxenhet \n\n Särskilt grova träd - Träd med grövre brösthöjdsdiameter än följande: \n\u2022 Tall: 50 cm \n\u2022 Gran: 60 cm \n\u2022 Triviallöv: 40 cm \n\u2022 Ädellöv: 50 cm söder om vägen E18. 10 cm norr om denna \n\nHar särskilda karaktärer såsom: \n\u2022 Öppna brandljud \n\u2022 Hålträd / bohål \n\u2022 Risbon \n\u2022 Träd med tydliga kulturspår – hamling mm \n\u2022 Träd med flera väl synliga tickor",
-            },
-            {
-                title: "Ålders- och diameterspridning",
-                text: "Bedöm spridning i ålder eller diameter.Variationen kan vara kontinuerlig, från riktigt klena eller unga träd till äldre och riktigt grova. Variationen kan också utgöras av förekomst av avvikande äldre eller grövre träd.",
-            },
-            {
-                title: "Speciella biotoper",
-                text: "Speciella biotoper är områden som avvikande från produktionsskogen. Detta kan till exempel vara:  \n\u2022 Sumpskog / översvämningsområden \n\u2022 Område med inslag av värdelöv(ädellöv, rönn, asp, al) \n\u2022 Rasbrant / Ravin \n\u2022 Lodvägg \n\u2022 Rikkärr \nFör vidare läsning kring detta rekommenderas Skogsstyrelsens målbilder för hänsynskrävande biotoper. En bedömning görs ifall det finns inslag av speciella biotoper i beståndet.",
-            },
-            {
-                title: "Vatten",
-                text: "Vatten i form av vattendrag, sjöar eller mindre öppna vattenspeglar. Dessa värden ska ligga i eller i direkt anslutning till beståndet och bedömas vara vattenförande året runt. Till vattendrag räknas även större diken.",
-            }
-        ],
-        questions: [
-            { text: "Vänlig välj typ av skog." }, {
-                text: "Bedömningen av beståndsålder beror på trädslag och läge i landet. \n\nTall och gran\nMedelhög ålder: \n\u2022 120-160 år i Norrland \n\u2022 100-140 år i Svealand och Götaland\nHög ålder: \n\u2022 > 160 år i Norrland \n\u2022 > 140 år i Svealand och Götaland\nLöv\nMedelhög ålder: 70-100 år\nHög ålder: > 100 år"
-            }, {
-                text: "Ålders- och diameterspridning Bedöm spridning i ålder eller diameter. Variationen kan vara kontinuerlig, från riktigt klena eller unga träd till äldre och riktigt grova. Variationen kan också utgöras av förekomst av avvikande äldre eller grövre träd."
-            }, {
-                text: "Naturligt uppkomna partier av stamtät, klen tall som är något senvuxen och där självgallring pågår. Ofta uppkomna till följd av brand."
-            }, {
-                text: "Död ved, till exempel stubbar, lågor eller torrtäd, med spår av kol eller brandljud."
-            }, {
-                text: "Här noteras förekomsten av rödlistade arter och signalarter. Ingen detaljerad artinventering krävs. Med rödlistade arter menas de arter som enligt den nationella rödlistan finns i någon av statuskategorierna NT, VU, EN eller CR. Signalarterna är definierade av Skogsstyrelsen."
-            }, {
-                text: "Träd med utbildade fruktkroppar av vedsvampar, tickor, eller träd som brutits av på grund av rötangrepp. Mängden avser antalet angripna stammar/lågor/stubbar per hektar."
-            }, {
-                text: "Äldre granar som upplevs klädda med hänglav. Granar med endast enstaka hänglavar räknas ej hit. Mängden avser antalet lavklädda granar per hektar."
-            }, {
-                text: "Grövre ”värdelöv” avser en brösthöjdsdiameter över 40 cm för asp, 10 cm för rönn samt för ädellöv 50 cm söder om vägen E18 och 10 cm norr om denna."
-            }, {
-                text: "En krontakslucka definieras som en lucka som minst har storleken av en kvadrat med en sida om ca 8 m där träd saknas. Föryngring kan förekomma."
-            }, {
-                text: "Tunna humuslager, vanligen tunnare än några cm, och blottad mineraljord/sand är utmärkande för värdefulla sandtallskogar, och gynnar både marksvampar och vissa insekter."
-            }, {
-                text: "Sandtallskogar har ofta tunna humuslager och en markvegetation som till stor del består av lavar. Riklig förekomst av marktäckande lavar och frånvaro av bärris och ljung anses gynna marksvampar."
-            }, {
-                text: "Områden där grundvatten trängt fram till ytan har ofta en avvikande och frodig vegetation i form av mossmattor och ormbunkar. Förekommer ofta i sluttningar (översilning) eller nedanför dessa (källmyrar).."
-            }, {
-                text: "Ädellövträd och asp anses särskilt värdefulla för biologisk mångfald, bland annat mossor, lavar och insekter."
-            }, {
-                text: "Mängden död ved skattas som den totala längden ved, över 15 cm i diameter, som korsar eller ligger i vattendraget inom objektet. Detta redovisas som ett medelvärde för död ved per 20 m vattendrag inom objektet. Till vattendraget räknas även de bankar som leder ner till den vattenförande delen."
-            }, {
-                text: "Småöar: Mindre öar eller bankar som delar vattendraget i två eller flera fåror. Under merparten av året ligger dessa ovan vattenytan men kan under perioder av högvatten vara täckta. Sandbranter: Karaktäriseras av en högre eller lägre sluttning med blottad mineraljord som leder ner till vattendraget. Jordarten består av s.k. friktionsjord, d.v.s. ett lågt lerinnehåll vilket gör att det lätt uppstår små ras i branten vid störning. Längre partier med grusbotten: En grusbotten är generellt fri från slam och dy, vilket gör att botten karaktäriseras av grövre mineralpartiklar, vanligtvis grus men det kan också vara sand i lugnare partier. För att botten ska klassas i naturvärdesbedömningen krävs att ett längre parti, mer än 5 meter har grusbotten."
-            }, {
-                text: "Vänligen gör en artobservation."
-            }, {
-                text: "Vänligen gör en objektbeskrivning."
-            }, {
-                text: "Vänligen gör en objektbeskrivning."
-            }, {
-                text: "Vänligen gör en objektbeskrivning."
-            }, {
-                text: "Vänligen gör en objektbeskrivning."
-            }, {
-                text: "Vänligen gör en objektbeskrivning."
-            }, {
-                text: "Vänligen gör en objektbeskrivning."
-            }
-        ]
-    },
-
-})
+ { 
+	"natureAssessmentInformation": {
+		"title": "Naturvärdesbedömningen",
+		"html":"<p>Naturvärdesbedömningen består huvudsakligen av tre moment:</p>
+		 <ul>
+		  <li>Starta naturvärdesbedömning med inledande frågor för att grovt bedöma naturvärden och behov av fortsatt bedömning</li>
+		  <li>Provytor för kvantitativ datainsamling</li>
+		  <li>Skattningar av strukturer för hela objektet</li>
+		</ul>
+		<p>För att utföra naturvärdesbedömningen finns några viktiga punkter:</p>
+		<ul>
+		  <li>Få en bra bild av HELA objektet – Håll koll på yttergränser, genomkorsa effektivt</li>
+		  <li>Få en bild av vilka processer som ligger bakom objektets struktur och naturvärden Ställ frågan: Vad har hänt här?</li>
+		  <li>Placera en eller flera provytor representativt för bedömningsområdet (1-6 provytor med 25 m radie) – Storleken på och variationen i objektet avgör antalet <bold>Tips!</bold> Provytorna kan också vara en hjälp vid bedömning av andra variabler. Multiplicerat med 5 får man antal per ha</li>
+		  <li>Skatta strukturer för hela objektet</li>
+		  <li>Utifrån insamlad information får man ett sammanvägt betyg för områdets naturvärde</li>
+		</ul> 
+		<p>Naturvärdesbedömning utförs för att bedöma ett objekts naturvärde i samband med skogliga åtgärder eller för att bedöma kvalitet på avsättningar. Att avgöra naturvärden utifrån artinventeringar skulle vara mycket tidskrävande. Därför bygger bedömningen istället på förekomst av substrat och strukturer med känd betydelse för biologisk mångfald. Det sammanvägda betyget ger en ungefärlig vägledning om objektets naturvärden och utfallet påverkas av inventerarens förkunskaper och nedlagd tid.</p>",
+		"img":null,
+		"questions":null
+	},
+	"gradeInformation":	{
+		"title": "Betyg",
+		"html":"<p>Naturvärdesbedömningen kan resultera i följande betyg: </br> <bold>Höga naturvärden</bold>: Området bedöms ha höga naturvärden motsvarande objekt med naturvärde eller nyckelbiotop. Detta är troligtvis en lämplig avsättning för naturvård och ska skogsbruksåtgärder genomföras bör skogsstyrelsen konsulteras. </br> <bold>Gränsfall</bold>: Området verkar ha vissa naturvärden men inte tillräckligt för att entydigt klassa det som höga naturvärden. Ska skogsbruksåtgärder genomföras kan det vara bra att kontakta skogsstyrelsen för konsultation. </br> <bold>Produktionsskog</bold>: Området tycks inte ha några högre naturvärden. Här borde skogsbruksåtgärder kunna genomföras med vanlig generell hänsyn.</p>",
+		"img":null,
+		"questions":null
+	},
+	"forestType": {
+		"title": "Skogstyp",
+		"html":null,
+		"img":null,
+		"questions":[
+			{
+				"id_encuestaP": 77,
+				"definitions":[
+					{	
+						"title": "Vanlig tallskog",
+						"html": "<p>Trädskiktet domineras helt eller huvudsakligen av tall, ofta på svagare marker.</p>",
+						"img": "<img src=\.img/\"vanlig tallskog.jpg\" />"
+					},
+					{
+						"title": "Kalktallskog",
+						"html": "<p>Talldominerat trädskikt med följande kännetecken:</p>
+						<ul>
+							<li>Artrik flora av kärlväxter och marksvampar, speciellt i sluttningar med rörligt markvatten eller i låga terrängområden med fuktstråk eller källflöden</li>
+							<li>Förekomst av kalkindikerande arter som blåsippor, orkidéer, kranshakmossa, trolldruva, tibast, vispstarr och vårärt(Svagare indikatorarter inkluderar bland annat ormbär, hässlebrodd, brunört och violer)</li>
+							<li>Naturvärdena är ofta särskilt höga vid störningspåverkan, t.ex.skogsbete, som förhindrat tidigare spontana igenväxningsförlopp</li>
+						</ul>",
+						"img":null
+					},
+					{
+						"title": "Sandtallskog",
+						"html": "<p>Talldominerat trädskikt med följande kännetecken:</p> 
+						<ul>
+							<li>Växer på sandiga eller grusiga sedimentmarker(förekommer ofta på rullstensåsar, dyner och deltan)</li>
+							<li>Humuslagret är oftast tunt och marken är helt eller delvis täckt av lavar</li>
+							<li>Blottade och solexponerade sandytor förekommer ofta</li>
+						</ul>",
+						"img":"<img src=\.img/\"sandtallskog.jpg\" />"
+					},
+					{
+						"title": "Vanlig granskog",
+						"html": "<p>Trädskiktet domineras helt eller huvudsakligen av gran, ofta på mer näringrika marker.</p>",
+						"img":"<img src=\.img/\"vanlig granskog.jpg\" />"
+					},
+					{
+						"title": "Kalkgranskog",
+						"html": "<p>Grandominerat trädskikt tillsammans med följande kännetecken:</p>
+						<ul>
+							<li>Artrik flora av kärlväxter och marksvampar.Speciellt i sluttningar med rörligt markvatten eller i låga terrängområden med fuktstråk eller källflöden</li>
+							<li>Förekomst av kalkindikerande arter som blåsippor, orkidéer, kranshakmossa, trolldruva, tibast, vispstarr och vårärt. (Svagare indikatorarter inkluderar bland annat ormbär, hässlebrodd, brunört och violer)</li>
+							<li>Naturvärdena är ofta särskilt höga vid störningspåverkan, t.ex.skogsbete, som förhindrat tidigare pontana igenväxningsförlopp</li>
+						</ul>",
+						"img":null
+					},
+					{
+						"title": "Vanlig lövskog",
+						"html": "<p>Skog där trädskiktets sammansättning helt eller huvudsakligen(> 70 %) består av lövträdslag</p>",
+						"img":"<img src=\.img/\"vanlig lövskog.jpg\" />"
+					},
+					{
+						"title": "Blandskog",
+						"html": "<p>Skog TO BE DEFINED</p>",
+						"img":null
+					}
+				]
+			}
+		]
+	},
+	"qualities": {
+		"title": "Speciella kvalitéer",
+		"html":"<p>En bedömning görs för ifall objektet håller några speciella kvalitéer, biotoper eller vatten. Till speciella kvalitéer räknas död ved, naturvärdesträd, ålders- eller stamdiameterspridning. Dessa värden kan vara spridda i beståndet eller i hittas i flera grupper.<\/p>
+		<p>Finns inget av detta, samtidigt som skogstypen inte tyder på några högre värden går det oftast att anta att skogen är en produktionsskog. Finns någon av dessa kvalitéer spritt eller i grupper?<\/p>",
+		"img":"<img src=\.img/\"Vatten 2.jpg\" />",
+		"questions": [
+			{
+				"id_encuestaP": 78,
+				"definitions":[
+					{
+						"title": "Död ved",
+						"html": "<P>Till död ved räknas stående och liggande död ved över 15 cm i diameter och med en höjd, eller längd över 1,3 m. En bedömning ska göras om det finns inslag av död ved spritt i beståndet eller som ansamlingar i flera grupper.</p>",
+						"img":"<img src=\.img/\"Låga 2.jpg\" />"
+					},
+					{
+						"title": "Naturvärdesträd",
+						"html": "<p>Som naturvärdesträd räknas:</p>
+						<ul>
+							<li>Ovanliga trädslag: Trädformig(> 10 cm dbh) rönn, sälg, hägg, lönn sockelbildande al, oxel,hassel, fågelbär, idegran.</li>
+							<li>Särskilt gamla träd – Kännetecken för ålder:
+								<ul>
+									<li>Grov skorpbark / pansarbark / krokodilbark</li>
+									<li>Knotiga grenar med brant nedåtriktad grenvinkel</li>
+									<li>Påtagligt grovgrenig eller spärrgrenig</li>
+									<li>PVid och / eller tydligt tillplattad krona</li>
+									<li>Påtaglig senvuxenhet </li>
+								</ul> 
+							</li>
+							<li>Särskilt grova träd - Träd med grövre brösthöjdsdiameter än följande:
+								<ul>
+									<li>Tall: 50 cm</li>
+									<li>Gran: 60 cm</li>
+									<li>Triviallöv: 40 cm</li>
+									<li>Ädellöv: 50 cm söder om vägen E18. 10 cm norr om denna</li>
+								</ul> 
+							</li>
+							<li>Har särskilda karaktärer såsom:
+								<ul>
+									<li>Öppna brandljud</li>
+									<li>Hålträd / bohål</li>
+									<li>Risbon</li>
+									<li>Träd med tydliga kulturspår – hamling mm</li>
+									<li>Träd med flera väl synliga tickor</li>
+								</ul> 
+							</li>
+						</ul>", 
+						"img":"<img src=\.img/\"Naturvärdesträd.jpg\" />"
+					},
+					{
+						"title": "Ålders- och diameterspridning",
+						"html": "<p>Bedöm spridning i ålder eller diameter.Variationen kan vara kontinuerlig, från riktigt klena eller unga träd till äldre och riktigt grova. Variationen kan också utgöras av förekomst av avvikande äldre eller grövre träd.</p>",
+						"img":null
+					},
+					{
+						"title": "Speciella biotoper",
+						"html": "<p>Speciella biotoper är områden som avvikande från produktionsskogen. Detta kan till exempel vara:</p>
+						<ul>
+							<li>Sumpskog / översvämningsområden</li>
+							<li>Område med inslag av värdelöv(ädellöv, rönn, asp, al)</li>
+							<li>Rasbrant / Ravin</li>
+							<li>Lodvägg</li>
+							<li>Rikkärr</li>
+						</ul>
+						<p>För vidare läsning kring detta rekommenderas Skogsstyrelsens målbilder för hänsynskrävande biotoper. En bedömning görs ifall det finns inslag av speciella biotoper i beståndet.</p>",
+						"img":null
+					}
+				]
+			},
+			{
+				"id_encuestaP": 79,
+				"definitions":[
+					{
+						"title": "Vatten",
+						"html": "<p>Vatten i form av vattendrag, sjöar eller mindre öppna vattenspeglar. Dessa värden ska ligga i eller i direkt anslutning till beståndet och bedömas vara vattenförande året runt. Till vattendrag räknas även större diken.</p>",
+						"img":"<img src=\.img/\"Vatten 3.jpg\" />"
+					}
+				]
+			}
+		]
+	},
+	"questionnaire": {
+		"title": "Frågeformulär",
+		"html":null,
+		"img":null,
+		"questions": [
+			{                
+				"id_encuestaP": 80,
+				"html": "<p>Bedömningen av beståndsålder beror på trädslag och läge i landet.</p> 
+				<p><bold>Tall och gran</bold></p>
+				<ul>
+					<li>Medelhög ålder:
+						<ul>
+							<li>120-160 år i Norrland</li>
+							<li>100-140 år i Svealand och Götaland</li>
+						</ul>
+					</li>
+					<li><bold>Hög ålder:</bold>:
+						<ul>
+						  <li> > 160 år i Norrland</li>
+						  <li> > 140 år i Svealand och Götaland</li>
+						</ul>
+					</li>
+				</ul>
+				<p><bold>Löv</bold></p>
+				<ul>
+					<li>Medelhög ålder: 70-100 år</li>
+					<li>Hög ålder: > 100 år</li>							
+				</ul>",
+				"img":null
+			},
+			{
+				"id_encuestaP": 81,
+				"html": "Ålders- och diameterspridning Bedöm spridning i ålder eller diameter. Variationen kan vara kontinuerlig, från riktigt klena eller unga träd till äldre och riktigt grova. Variationen kan också utgöras av förekomst av avvikande äldre eller grövre träd.",
+				"img":null
+			}, 
+			{
+				"id_encuestaP": 82,
+				"html": "Naturligt uppkomna partier av stamtät, klen tall som är något senvuxen och där självgallring pågår. Ofta uppkomna till följd av brand.",
+				"img":null
+			}, 
+			{
+				"id_encuestaP": 83,
+				"html": "Död ved, till exempel stubbar, lågor eller torrtäd, med spår av kol eller brandljud.",
+				"img":"<img src=\.img/\"Brandsubbe.jpg\" />"
+			}, 
+			{
+				"id_encuestaP": 84,
+				"html": "Här noteras förekomsten av rödlistade arter och signalarter. Ingen detaljerad artinventering krävs. Med rödlistade arter menas de arter som enligt den nationella rödlistan finns i någon av statuskategorierna NT, VU, EN eller CR. Signalarterna är definierade av Skogsstyrelsen.",
+				"img":null
+			}, 
+			{
+				"id_encuestaP": 85,
+				"html": "Vänligen notera alla hittade arter.",
+				"img":null
+			},
+			{
+				"id_encuestaP": 86,
+				"html": "Träd med utbildade fruktkroppar av vedsvampar, tickor, eller träd som brutits av på grund av rötangrepp. Mängden avser antalet angripna stammar/lågor/stubbar per hektar.",
+				"img":null
+			}, 
+			{
+				"id_encuestaP": 87,
+				"html": "Äldre granar som upplevs klädda med hänglav. Granar med endast enstaka hänglavar räknas ej hit. Mängden avser antalet lavklädda granar per hektar.",
+				"img":null
+			}, 
+			{
+				"id_encuestaP": 88,
+				"html": "Grövre ”värdelöv” avser en brösthöjdsdiameter över 40 cm för asp, 10 cm för rönn samt för ädellöv 50 cm söder om vägen E18 och 10 cm norr om denna.",
+				"img":null
+			}, 
+			{
+				"id_encuestaP": 89,
+				"html": "En krontakslucka definieras som en lucka som minst har storleken av en kvadrat med en sida om ca 8 m där träd saknas. Föryngring kan förekomma.",
+				"img":null
+			}, 
+			{
+				"id_encuestaP": 90,
+				"html": "Silverlågor eller torrkor TO BE DEFINED",
+				"img":null
+			}, 
+			{
+				"id_encuestaP": 91,
+				"html": "Död ved i olika nedbrytningsstadier TO BE DEFINED",
+				"img":null
+			}, 
+			{
+				"id_encuestaP": 92,
+				"html": "Tunna humuslager, vanligen tunnare än några cm, och blottad mineraljord/sand är utmärkande för värdefulla sandtallskogar, och gynnar både marksvampar och vissa insekter.",
+				"img":null
+			}, 
+			{
+				"id_encuestaP": 94,
+				"html": "Sandtallskogar har ofta tunna humuslager och en markvegetation som till stor del består av lavar. Riklig förekomst av marktäckande lavar och frånvaro av bärris och ljung anses gynna marksvampar.",
+				"img":null
+			}, 
+			{
+				"id_encuestaP": 96,
+				"html": "Områden där grundvatten trängt fram till ytan har ofta en avvikande och frodig vegetation i form av mossmattor och ormbunkar. Förekommer ofta i sluttningar (översilning) eller nedanför dessa (källmyrar).",
+				"img":null
+			}, 
+			{
+				"id_encuestaP": 97,
+				"html": "Ädellövträd och asp anses särskilt värdefulla för biologisk mångfald, bland annat mossor, lavar och insekter.",
+				"img":null
+			}, 
+			{
+				"id_encuestaP": 98,
+				"html": "Mängden död ved skattas som den totala längden ved, över 15 cm i diameter, som korsar eller ligger i vattendraget inom objektet. Detta redovisas som ett medelvärde för död ved per 20 m vattendrag inom objektet. Till vattendraget räknas även de bankar som leder ner till den vattenförande delen.",
+				"img":null
+			}, 
+			{
+				"id_encuestaP": 99,
+				"html": "<p>Småöar: Mindre öar eller bankar som delar vattendraget i två eller flera fåror. Under merparten av året ligger dessa ovan vattenytan men kan under perioder av högvatten vara täckta.</p>
+				<p>Sandbranter: Karaktäriseras av en högre eller lägre sluttning med blottad mineraljord som leder ner till vattendraget. Jordarten består av s.k. friktionsjord, d.v.s. ett lågt lerinnehåll vilket gör att det lätt uppstår små ras i branten vid störning.</p>
+				<p>Längre partier med grusbotten: En grusbotten är generellt fri från slam och dy, vilket gör att botten karaktäriseras av grövre mineralpartiklar, vanligtvis grus men det kan också vara sand i lugnare partier. För att botten ska klassas i naturvärdesbedömningen krävs att ett längre parti, mer än 5 meter har grusbotten.</p>",
+				"img":"<img src=\.img/\"Vatten grusbotten.jpg\" />"
+			},
+			{
+				"id_encuestaP": 100,
+				"html": "Vänligen notera en beskrivning av områden.",
+				"img":null
+			}			
+			
+		]
+	},
+	"samples": {
+		"title": "Provytor",
+		"html": "<p>I en provyta med 25 m radie räknas antalet naturvärdesträd samt antalet liggande och stående död ved. Ett medelvärde för alla provytor ligger sedan till grund för slutgiltiga betyget.</p>",
+		"img":null,		
+		"questions": [
+			{
+				"id_muestraP": 30,
+				"html": "Stående döda träd eller högstubbar högre än 1,3 m och grövre än 15 cm i brösthöjd",
+				"img":null
+			},
+			{
+				"id_muestraP": 31,
+				"html": "Liggande död ved längre än 1,3 m och grövre än 15 cm",	
+				"img":null					
+			},
+			{
+				"id_muestraP": 32,
+				"html": "<p>Som naturvärdesträd räknas:</p>
+						<ul>
+							<li>Ovanliga trädslag: Trädformig(> 10 cm dbh) rönn, sälg, hägg, lönn sockelbildande al, oxel,hassel, fågelbär, idegran.</li>
+							<li>Särskilt gamla träd – Kännetecken för ålder:
+								<ul>
+									<li>Grov skorpbark / pansarbark / krokodilbark</li>
+									<li>Knotiga grenar med brant nedåtriktad grenvinkel</li>
+									<li>Påtagligt grovgrenig eller spärrgrenig</li>
+									<li>PVid och / eller tydligt tillplattad krona</li>
+									<li>Påtaglig senvuxenhet </li>
+								</ul> 
+							</li>
+							<li>Särskilt grova träd - Träd med grövre brösthöjdsdiameter än följande:
+								<ul>
+									<li>Tall: 50 cm</li>
+									<li>Gran: 60 cm</li>
+									<li>Triviallöv: 40 cm</li>
+									<li>Ädellöv: 50 cm söder om vägen E18. 10 cm norr om denna</li>
+								</ul> 
+							</li>
+							<li>Har särskilda karaktärer såsom:
+								<ul>
+									<li>Öppna brandljud</li>
+									<li>Hålträd / bohål</li>
+									<li>Risbon</li>
+									<li>Träd med tydliga kulturspår – hamling mm</li>
+									<li>Träd med flera väl synliga tickor</li>
+								</ul> 
+							</li>
+						</ul>", 
+				"img":"<img src=\.img/\"Naturvärdesträd.jpg\" />"		
+			}
+		]
+	}
+}
