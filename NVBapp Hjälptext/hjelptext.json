@@ -163,7 +163,7 @@
 						"html": "Vänligen notera alla hittade arter.",
 						"img":null
 					}
-				]						
+				]
 			},
 			{
 				"id_encuestaP": 86,
@@ -264,7 +264,7 @@
 						"img":null
 					}
 				]
-			}, 			
+			},
 			{
 				"id_encuestaP": 96,
 				"definitions":[
@@ -303,7 +303,7 @@
 						"html":"<p>Småöar: Mindre öar eller bankar som delar vattendraget i två eller flera fåror. Under merparten av året ligger dessa ovan vattenytan men kan under perioder av högvatten vara täckta.</p><p>Sandbranter: Karaktäriseras av en högre eller lägre sluttning med blottad mineraljord som leder ner till vattendraget. Jordarten består av s.k. friktionsjord, d.v.s. ett lågt lerinnehåll vilket gör att det lätt uppstår små ras i branten vid störning.</p><p>Längre partier med grusbotten: En grusbotten är generellt fri från slam och dy, vilket gör att botten karaktäriseras av grövre mineralpartiklar, vanligtvis grus men det kan också vara sand i lugnare partier. För att botten ska klassas i naturvärdesbedömningen krävs att ett längre parti, mer än 5 meter har grusbotten.</p><p>Merparten: En eller flera av dessa biotoper finns spridda längs hela vattendraget i objektet med endast någon enstaka eller ett fåtal luckor.</p><p>Förekommer: En eller flera av dessa biotoper finns längs vattendraget, dock inte längs merparten.</p>",
 						"img":"<img src=\".img/Vatten grusbotten.jpg\" />"
 					}
-				]						
+				]
 			},
 			{
 				"id_encuestaP": 100,
@@ -314,14 +314,14 @@
 						"img":null
 					}
 				]
-			}			
+			}
 			
 		]
 	},
 	"samples": {
 		"title": "Provytor",
 		"html": "I en provyta med 25 m radie räknas antalet naturvärdesträd samt antalet liggande och stående död ved. Ett medelvärde för alla provytor ligger sedan till grund för slutgiltiga betyget.",
-		"img":null,		
+		"img":null,
 		"questions": [
 			{
 				"id_muestraP": 30,
@@ -339,7 +339,7 @@
 					{
 						"title": null,
 						"html": "Liggande död ved längre än 1,3 m och grövre än 15 cm",	
-						"img":null	
+						"img":null
 					}
 				]
 			},
