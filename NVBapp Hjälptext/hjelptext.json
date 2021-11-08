@@ -140,7 +140,7 @@
 				"definitions":[
 					{
 						"title": null,
-						"html": "Död ved, till exempel stubbar, lågor eller torrtäd, med spår av kol eller brandljud.",
+						"html": "<p>Brand- eller silverstubbar:</p><ul><li>Brandstubbar – Stubbar som har spår av brand i form av en kolad yta</li><li>Silverstubbar – Stubbar, ofta gamla avverkningsstubbar från tidigare plockhuggning, med silveraktig yta. Delar av veden är kådimpregnerad/tjärad vilket gör att nedbrytningen blir långsam</li></ul>",
 						"img":"<img src=\".img/Brandsubbe.jpg\" />"
 					}
 				]
@@ -163,7 +163,7 @@
 						"html": "Vänligen notera alla hittade arter.",
 						"img":null
 					}
-				]
+				]						
 			},
 			{
 				"id_encuestaP": 86,
@@ -190,7 +190,7 @@
 				"definitions":[
 					{
 						"title": null,
-						"html": "Grövre ”värdelöv” avser en brösthöjdsdiameter över 40 cm för asp, 10 cm för rönn samt för ädellöv 50 cm söder om vägen E18 och 10 cm norr om denna.",
+						"html": "Grövre 'värdelöv' avser en brösthöjdsdiameter över 40 cm för asp, 10 cm för rönn samt för ädellöv 50 cm söder om vägen E18 och 10 cm norr om denna.",
 						"img":null
 					}
 				]
@@ -210,7 +210,7 @@
 				"definitions":[
 					{
 						"title": null,
-						"html": "Silverlågor eller torrkor TO BE DEFINED",
+						"html": "<p>Silverlågor eller torrkor:</p><ul><li>Torraka – Stående död ved som har en silvrig yta och där veden är kådimpregnerad/tjärad vilket lett till en långsam nedbrytning och att torrakan har stått upp länge</li><li>Silverlåga – Liggande död ved med silveraktig yta. Delar av veden är kådimpregnerad/tjärad vilket gör att nedbrytningen blir långsam</li></ul>",
 						"img":null
 					}
 				]
@@ -220,7 +220,7 @@
 				"definitions":[
 					{
 						"title": null,
-						"html": "Död ved i olika nedbrytningsstadier TO BE DEFINED",
+						"html": "Död ved finns i olika stadier från färsk död ved, exempelvis nya vindfällen, till krftigt nedbrutna och mjuka lågor",
 						"img":null
 					}
 				]
@@ -264,7 +264,7 @@
 						"img":null
 					}
 				]
-			},
+			}, 			
 			{
 				"id_encuestaP": 96,
 				"definitions":[
@@ -314,7 +314,7 @@
 						"img":null
 					}
 				]
-			}
+			}			
 			
 		]
 	},
