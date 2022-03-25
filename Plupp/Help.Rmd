@@ -7,7 +7,7 @@ output: html_document
 **PlUpp** är ett internt webb-app som hjälper att planera projekt, fördela resurser samt följa projekts budget. Det kopplar QBIS med vår egen planering system i Canopy. Om du är inte där än, du når det här [Plupp](https://greensway.shinyapps.io/Plupp/).
 
 ```{=html}
-<div style="padding:0cm 0cm 0cm 0cm;background:#6AA039">
+<div style="padding:0.1cm 0.1cm 0.1cm 0.1cm;background:#6AA039">
 <h3>Inloggning</h3>
 </div>
 ```
@@ -26,7 +26,7 @@ Menyn kommer ta dig där du behöver. Du kan byta månad fram och tillbacka med 
 "Hover" gärna över figurer, då kommer du se olika möjligheter. Först kommer det dyka upp ett meny där du kan välja att zooma in, spara bilden, m.m. Kanske viktigare, det kommer att dyka upp ett s.k. tooltip med extra detaljer om delen av figuren du är på.
 
 ```{=html}
-<div style="padding:0cm 0cm 0cm 0cm;background:#6AA039">
+<div style="padding:0.1cm 0.1cm 0.1cm 0.1cm;background:#6AA039">
 <h3>Månadsvis budget</h3>
 </div>
 ```
@@ -41,7 +41,7 @@ Efter figuren ser man en detaljerad tabell av alla projekt som bearbetas den må
 ![Inställningar för tabellen](img/Screenshot%202022-03-25%20083754.jpg "tablemonth")
 
 ```{=html}
-<div style="padding:0cm 0cm 0cm 0cm;background:#6AA039">
+<div style="padding:0.1cm 0.1cm 0.1cm 0.1cm;background:#6AA039">
 <h3>Plannering</h3>
 </div>
 ```
@@ -60,22 +60,24 @@ Efter figurerna kommer en detaljerad lista av planerad aktiviteter.
 ![Detaljerad aktivitets tabell](img/Screenshot%202022-03-25%20084025.jpg "planner table"){width="800"}
 
 ```{=html}
-<div style="padding:0cm 0cm 0cm 0cm;background:#6AA039">
+<div style="padding:0.1cm 0.1cm 0.1cm 0.1cm;background:#6AA039">
 <h3>Projekt portfölj</h3>
 </div>
 ```
 Är du projekt ledare då kanske vill du kicka på projekt portfölj och se till att allt information stämmer och
 
-![Detaljerad lista av alla projekt](img/Screenshot%202022-03-25%20084100.jpg "project list")
+![Detaljerad lista av alla projekt](img/Screenshot%202022-03-25%20084100.jpg "project list"){width="800"}
 
 ```{=html}
-<div style="padding:0cm 0cm 0cm 0cm;background:#6AA039">
+<div style="padding:0.1cm 0.1cm 0.1cm 0.1cm;background:#6AA039">
 <h3>Årets budget</h3>
 </div>
 ```
+Text
 
 ```{=html}
-<div style="padding:0cm 0cm 0cm 0cm;background:#6AA039">
+<div style="padding:0.1cm 0.1cm 0.1cm 0.1cm;background:#6AA039">
 <h3>Qbis connect</h3>
 </div>
 ```
+Här hittar du datumet där sista uppdatering med QBis har hänt. Detta borde uppdateras varje arbetsdag.
