@@ -51,9 +51,11 @@ Här kommer du hamna oftast. Här kan du se vilka projekt är planerad för dig 
 
 ![Veckans arbetsbelastning](img/Screenshot%202022-03-25%20083919.jpg "week planner"){width="800"}
 
+![Gruppering och filtrering av planering](img/Screenshot%202022-03-25%20125213.jpg "filter"){width="800"}
+
 Varje gång du ser en dubbel pil som muspekare (t.ex. där blå pillar finns) det betyder att du kan dra åt sidan. Du kan också använda den vita "handtag" markerad i röd för att zooma in i tid.
 
-![Att skrolla en tidslinje](img/scroll.png "scroll")
+![Att skrolla en tidslinje](img/scroll.png "scroll"){width="800"}
 
 Efter figurerna kommer en detaljerad lista av planerad aktiviteter.
 
@@ -64,7 +66,7 @@ Efter figurerna kommer en detaljerad lista av planerad aktiviteter.
 <h3>Projekt portfölj</h3>
 </div>
 ```
-Är du projekt ledare då kanske vill du kicka på projekt portfölj och se till att allt information stämmer och
+Är du projekt ledare då kanske vill du kicka på projekt portfölj och se till att allt information stämmer samt att du kör inte över budget.
 
 ![Detaljerad lista av alla projekt](img/Screenshot%202022-03-25%20084100.jpg "project list"){width="800"}
 
@@ -73,7 +75,9 @@ Efter figurerna kommer en detaljerad lista av planerad aktiviteter.
 <h3>Årets budget</h3>
 </div>
 ```
-Text
+För att stämma av planerad, inarbetad och bokfört hinner i kap med det som är budgeterad har vi då den här sammanfattning av årets ekonomi.
+
+![Årets budget](img/Screenshot%202022-03-25%20084226.jpg "yearly"){width="800"}
 
 ```{=html}
 <div style="padding:0.1cm 0.1cm 0.1cm 0.1cm;background:#6AA039">
