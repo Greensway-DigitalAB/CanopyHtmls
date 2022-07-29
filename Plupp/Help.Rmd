@@ -1,6 +1,6 @@
 ---
 title: "Plupp"
-date: "25/03/2022"
+date: "`r Sys.Date()`"
 output: html_document
 ---
 
@@ -8,8 +8,9 @@ output: html_document
 
 ```{=html}
 <div style="padding:0.1cm 0.1cm 0.1cm 0.1cm;background:#6AA039">
-<h3>Inloggning</h3>
+<h4>Inloggning</h4>
 </div>
+</br>
 ```
 ![Inloggnings sida](img/Screenshot%202022-03-25%20083509.jpg "login"){width="800"}
 
@@ -27,23 +28,25 @@ Menyn kommer ta dig där du behöver. Du kan byta månad fram och tillbacka med 
 
 ```{=html}
 <div style="padding:0.1cm 0.1cm 0.1cm 0.1cm;background:#6AA039">
-<h3>Månadsvis budget</h3>
+<h4>Månadsvis budget</h4>
 </div>
+</br>
 ```
 Detta sektion visar hur det går i stor sätt för hela månaden när man räknar ut allt planerad och inarbetad tid.
 
-![Månads budget](img/Screenshot%202022-03-25%20083609.jpg "month"){width="800"}
+![Månads budget](img/Screenshot%202022-07-29%20093930.png "month")
 
-Den första stapeln "Planerad hela månad" visar hur mycket är inplanerad, men detta tar inte hänsyn för planerad timmar som blev inte inarbetad eller fixad retroaktiv. Den andra stapeln "Planerad kvarstående månad + inarbetad" gör precis det, från den dagen man tittar och framåt räknar planerad timmar, och bakåt räknar inarbetad timmar från QBis. Det beror så klart på att alla registrerar timmar i sina tidskort. Den tredje stapeln visar då bara det inarbetad tid. På sidan ser man hur stor andel av det som kvarstår som planerad i timmar (respektiv stapeln i mitten) är (rapporterad som) inarbetad.
+Den första stapeln "Planerad kvarstående månad + inarbetad" visar hur mycket är inplanerad, från den dagen man tittar och framåt räknar planerad timmar, och bakåt räknar inarbetad timmar från QBis. Det beror så klart på att alla registrerar timmar i sina tidskort. Den andra stapeln visar då bara det inarbetad tid. På sidan ser man hur stor andel av det som kvarstår som planerad i timmar (respektiv stapeln i mitten) är (rapporterad som) inarbetad.
 
-Efter figuren ser man en detaljerad tabell av alla projekt som bearbetas den månad. Det viktigast där är att jämföra projektviss planering mot inarbetad. Man kan välja att vissa ven dessa projekt som är aktiv under månaden men har inte någon timme inplanerad samt inaktiva (avslutad/arkiverad) projekt. Med "+" knappen öppnas fler kolumner.
+Efter figuren ser man en detaljerad tabell av alla projekt som bearbetas den månad. Det viktigast där är att jämföra projektviss planering mot inarbetad. Man kan välja att vissa ven dessa projekt som är aktiv under månaden men har inte någon timme inplanerad samt inaktiva (avslutad/arkiverad) projekt. Med "+" knappen öppnas fler kolumner. En beskrivning av kolumnens inehåll kan ses om man "hovrar" över kolumntiteln.
 
 ![Inställningar för tabellen](img/Screenshot%202022-03-25%20083754.jpg "tablemonth")
 
 ```{=html}
 <div style="padding:0.1cm 0.1cm 0.1cm 0.1cm;background:#6AA039">
-<h3>Plannering</h3>
+<h4>Plannering</h4>
 </div>
+</br>
 ```
 Här kommer du hamna oftast. Här kan du se vilka projekt är planerad för dig och dina kollegor i varje vecka. OBS! även att man kan se planering daggvis betyder det inte att daggar är planerad (förutom lediga daggar). Detta är framför allt för att fördela timmar. Du kan även se figuren grupperad per projekt, eller timmar sammanfattad veckovis om du väljer "Matris" istället för "Tidslinje".
 
@@ -63,8 +66,9 @@ Efter figurerna kommer en detaljerad lista av planerad aktiviteter.
 
 ```{=html}
 <div style="padding:0.1cm 0.1cm 0.1cm 0.1cm;background:#6AA039">
-<h3>Projekt portfölj</h3>
+<h4>Projekt portfölj</h4>
 </div>
+</br>
 ```
 Är du projekt ledare då kanske vill du kicka på projekt portfölj och se till att allt information stämmer samt att du kör inte över budget.
 
@@ -72,8 +76,9 @@ Efter figurerna kommer en detaljerad lista av planerad aktiviteter.
 
 ```{=html}
 <div style="padding:0.1cm 0.1cm 0.1cm 0.1cm;background:#6AA039">
-<h3>Årets budget</h3>
+<h4>Årets budget</h4>
 </div>
+</br>
 ```
 För att stämma av planerad, inarbetad och bokfört hinner i kap med det som är budgeterad har vi då den här sammanfattning av årets ekonomi.
 
@@ -81,7 +86,8 @@ För att stämma av planerad, inarbetad och bokfört hinner i kap med det som ä
 
 ```{=html}
 <div style="padding:0.1cm 0.1cm 0.1cm 0.1cm;background:#6AA039">
-<h3>Qbis connect</h3>
+<h4>Qbis connect</h4>
 </div>
+</br>
 ```
 Här hittar du datumet där sista uppdatering med QBis har hänt. Detta borde uppdateras varje arbetsdag.
